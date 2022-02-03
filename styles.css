@@ -36,6 +36,19 @@ hr{
     margin: 5rem auto;
     clear: both;
 }
+
+a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: #0F4C75;
+    font-weight: 200;
+    margin: 2rem;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #E8FFFF;
+}
 /*************Classes***********/
 
 .top{
@@ -53,7 +66,7 @@ hr{
 }
 
 .bottom-container{
-    padding: 3rem;
+    padding: 2rem;
     background-color: #00B7C2;
 
 
@@ -116,11 +129,12 @@ hr{
     -webkit-border-radius: 8;
     -moz-border-radius: 8;
     border-radius: 8px;
-    font-family: Arial;
+    font-family: 'Roboto', sans-serif;
     color: #ffffff;
     font-size: 20px;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
+
   }
   
   .btn:hover {
